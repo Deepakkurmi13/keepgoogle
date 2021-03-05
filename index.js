@@ -13,7 +13,7 @@ const addNewData = (text = "") => {
             <span class="trash"><i class="fas fa-trash mx-1"></i></span>
         </div>
         <p class="main ${text ? "" : "hidden" }"></p>
-        <textarea class="textData ${text ? "hidden" : "" }"></textarea> 
+        <textarea class="textData ${text ? "hidden" : "" }" placeholder="Write Notes..."></textarea> 
     `;
     
     note.insertAdjacentHTML("afterbegin",htmlData);
