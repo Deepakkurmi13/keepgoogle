@@ -1,10 +1,15 @@
-Google keep --- 
+<h1 style="color:red;">Google keep --- <h1>
+
 
 1.downlaod zip and and extract file.<br>
+
 2.save all file in htdocs folder like -  c/xammp/htdocs/file_name<br>
-3.open xampp 
-4.type url in google like - localhost/file_name/index.php
-5.heroku link - https://keepgoogle.herokuapp.com/
+
+3.open xampp <br>
+
+4.type url in google like - localhost/file_name/index.php<br>
+
+5.heroku link - https://keepgoogle.herokuapp.com/<br>
  
  
 Demo --- 
