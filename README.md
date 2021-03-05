@@ -1,6 +1,6 @@
 <h1>Google keep ---</h1>
 
-<h3>Steps ot run application on local server</h3>
+<h3 style="color:red;">Steps ot run application on local server</h3>
 
 1.downlaod zip and and extract file.<br>
 2.save all file in htdocs folder like -  c/xammp/htdocs/file_name<br>
