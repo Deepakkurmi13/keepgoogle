@@ -1,0 +1,98 @@
+body{
+    overflow-x:none;
+}
+:root{
+    --color1 : #c5d5cb;
+    --color2 : #9fa8a3;
+    --color3 : #DADED4;
+}
+.main_div{
+    height: 70px;
+    width:100%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 3px;
+}
+.add{
+    display: flex;
+    justify-content: center;
+    background-color:var(--color3); 
+    height: 60px;
+    width: 150px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 2px 1px;
+    border-radius: 10px;
+}
+.add .add-icon{
+    margin-top: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 20%;
+}
+.add .add-icon:hover{
+    color:red;
+}
+
+.node{
+    float:left;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    overflow-y: scroll;
+    width:280px;
+    margin-left:40px;
+    margin-top: 35px;
+    background-color: white;
+   
+    height:140px;
+}
+.node .edit {
+    height: 20px;
+    width: 20px;
+    color: white;
+    font-size: 12px;
+    background-color: rgb(83, 179, 83);
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    margin-left:10px;
+  
+} 
+.node .trash{
+    margin-left:7px;
+    height: 20px;
+    width: 20px;
+    color: white;
+    font-size: 12px;
+    background-color: rgb(212, 90, 90);
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+.node .edit:hover{
+    background-color: white;
+    color:rgb(83, 179, 83);
+}
+.node .trash:hover{
+    background-color: white;
+    color: rgb(212, 90, 90);
+}
+.node textarea{
+   height: 45px;
+   margin-top: 20px;
+   overflow-y: none;
+   width: 90%;
+   resize: none;
+   margin-left: 10px;
+   border:none;
+   outline:none;
+   font-size: 16px;
+   font-family: monospace;
+}
+.node textarea:focus{
+    border:none;
+   outline:none;
+}
+.hidden{
+    display: none;
+}
+.main{
+   margin-top:10px;
+}
